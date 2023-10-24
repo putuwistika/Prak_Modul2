@@ -31,6 +31,7 @@ echo "==========================================================================
 echo "                                  DOWNLOADING........"
 echo "================================================================================="
 echo "                         emang ga ada progress, tenang pasti kedownload kok :)"
+echo " "
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
 wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1V7LttBfUA-65Kn2G8xWhAQ0U-Lys-cTs' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1V7LttBfUA-65Kn2G8xWhAQ0U-Lys-cTs" -O MPCN_MODUL2.zip 2>> download.log
@@ -52,7 +53,7 @@ echo "End Time: $end_time" >> download.log
 
 # Hapus file yang tidak diperlukan
 rm MPCN_MODUL2.zip download_modul2.sh
-mv mpcn1_2 MODUL2
+mv MPCN_MODUL2 MODUL2
 rm download.log
 rm unzip.log
 
