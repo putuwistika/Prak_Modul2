@@ -78,5 +78,6 @@ echo "==========================================================================
 echo "                              TERIMA KASIH SUDAH MENUNGGU"
 echo "                             SELAMAT MENGERJAKAN PRAKTIKUM"
 echo "                 @SALAM HANGAT ASISTEN PRAKTIKUM MPCN I 2023 ALA ALA DUM DUM"
+echo "                                TRAKTIR KOPI DONGS HEHE"
 echo "================================================================================="
 cd ../
