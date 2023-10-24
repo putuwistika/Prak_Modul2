@@ -57,8 +57,8 @@ rm unzip.log
 
 mv MODUL2 ../
 cd ..
-rm -r Prak_Modul2 -y
-cd ..
+rm -rf Prak_Modul2
+
 
 echo " "
 echo "================================================================================="
@@ -68,3 +68,4 @@ echo "                              TERIMA KASIH SUDAH MENUNGGU"
 echo "                             SELAMAT MENGERJAKAN PRAKTIKUM"
 echo "                 @SALAM HANGAT ASISTEN PRAKTIKUM MPCN I 2023 ALA ALA DUM DUM"
 echo "================================================================================="
+cd ../
