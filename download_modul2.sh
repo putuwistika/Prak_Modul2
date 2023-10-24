@@ -34,7 +34,7 @@ echo "               emang ga ada progressnya, tenang pasti kedownload kok :)"
 echo " "
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
-wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1V7LttBfUA-65Kn2G8xWhAQ0U-Lys-cTs' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1V7LttBfUA-65Kn2G8xWhAQ0U-Lys-cTs" -O MPCN_MODUL2.zip 2>> download.log
+wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW" -O MPCN_MODUL2.zip 2>> download.log
 
 
 echo "================================================================================="
