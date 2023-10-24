@@ -57,7 +57,8 @@ rm unzip.log
 
 mv MODUL2 ../
 cd ..
-rm -r Prak_Modul2
+rm -r Prak_Modul2 -y
+cd ..
 
 echo " "
 echo "================================================================================="
