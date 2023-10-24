@@ -41,6 +41,14 @@ echo "==========================================================================
 echo "                                  UNPACKING DATA........"
 echo "================================================================================="
 
+# Memeriksa apakah 'unzip' sudah terinstal
+if ! command -v unzip &> /dev/null
+then
+    echo "Perintah 'unzip' tidak ditemukan. Mencoba menginstal..."
+    sudo apt install unzip
+fi
+
+
 unzip MPCN_MODUL2.zip >> unzip.log 
 
 
