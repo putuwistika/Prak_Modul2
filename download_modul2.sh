@@ -33,7 +33,10 @@ echo " "
 echo "================================================================================="
 echo "                                  DOWNLOADING........"
 echo "================================================================================="
-echo "               emang ga ada progressnya, tenang pasti kedownload kok :)"
+echo "                   Walaupun progressnya lambat, bikin hati was-was,"
+echo "                Tapi tenang, pasti selesai, ga ada yang bisa bas-bas,"
+echo "                     Download itu kesabaran, jangan cepat panas,"
+echo "                       Ketika selesai, senyummu bakal menghias!"
 echo " "
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
