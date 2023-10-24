@@ -30,7 +30,7 @@ echo " "
 echo "================================================================================="
 echo "                                  DOWNLOADING........"
 echo "================================================================================="
-echo "                         emang ga ada progress, tenang pasti kedownload kok :)"
+echo "               emang ga ada progressnya, tenang pasti kedownload kok :)"
 echo " "
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
