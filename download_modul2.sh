@@ -45,7 +45,7 @@ echo "==========================================================================
 # Memeriksa apakah 'unzip' sudah terinstal
 if ! command -v unzip &> /dev/null
 then
-    echo "Perintah 'unzip' tidak ditemukan. Mencoba menginstal..."
+    echo "IHH Kamu kok belum punya Perintah 'unzip' sich. Ya udah Asisten bantu menginstal... Inget Passwordnya yah"
     sudo apt install unzip
 fi
 
