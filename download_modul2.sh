@@ -34,14 +34,14 @@ echo " "
 echo "================================================================================="
 echo "                                  DOWNLOADING........"
 echo "================================================================================="
-echo "                      Walaupun progressnya lambat, bikin hati was-was,"
-echo "                    Tapi tenang, pasti selesai, ga ada yang bisa bas-bas,"
-echo "                        Download itu kesabaran, jangan cepat panas,"
-echo "                          Ketika selesai, senyummu bakal menghias!"
 echo " "
+echo "================================================================================="
+echo "                   YAU UDAH AKU KASI PROGRESSNYA, JANGAN REWEL LAGI YAH"
+echo "================================================================================="
+
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
-wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW" -O MPCN_MODUL2.zip 2>> download.log
+wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1LupxU6R6cE6gIUKv8GllYMKF3mchv3LW" -O MPCN_MODUL2.zip 
 
 
 echo "================================================================================="
