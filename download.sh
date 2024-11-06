@@ -110,7 +110,7 @@ echo " "
 
 
 
-wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=1THeWds1YYPkLQssQBAvOaHS1BDeBTZG6' -O- | sed -rn 's/.confirm=([0-9A-Za-z]+)._/\1\n/p')&id=1THeWds1YYPkLQssQBAvOaHS1BDeBTZG6" -O geog_high_res_mandatory.tar.gz
+wget --no-check-certificate https://putuwistika.online/MPCN/MPCN_MODUL2.zip
 
 
 
